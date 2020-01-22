@@ -171,6 +171,12 @@ li .link:hover {
   width: 30em;
   height: 30em;
 }
+.project h1 {
+  font-size: 2.8em;
+}
+.project span {
+  font-size: 2em;
+}
 .contact {
   position: relative;
   top: 20em;
@@ -259,7 +265,7 @@ li .link:hover {
     top: 1em;
     left: 1em;
   }
-.contact-button {
+  .contact-button {
     margin-top: 0;
   }
   .about {
@@ -276,6 +282,13 @@ li .link:hover {
     font-size: 3.5em;
     text-align: left;
     width: 300px;
+  }
+  .list {
+    max-width: 320px;
+  }
+  .list ul li {
+    font-size: 2.5em;
+    padding: 10px;
   }
 
   .work {
